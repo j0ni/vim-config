@@ -133,7 +133,6 @@ hi mailEmail cterm=bold ctermfg=yellow
 " let g:miniBufExplMapCTabSwitchBufs = 1 
 " let g:miniBufExplModSelTarget = 1 
 
-let Tlist_Ctags_Cmd='/opt/local/bin/ctags'
 map <Leader>T :TlistToggle<CR>
 
 map <Leader>f :FufFile<CR>
