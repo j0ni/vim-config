@@ -44,7 +44,8 @@ hi WarningMsg				ctermfg=yellow				guifg=#ffff00
 
 " syntax highlighting groups
 hi Comment	ctermfg=blue			guifg=#4444ff
-hi Constant	ctermfg=darkcyan		guifg=#00aaaa
+" hi Constant	ctermfg=darkcyan		guifg=#00aaaa
+hi Constant	ctermfg=green		guifg=#00aaaa
 hi Identifier 	ctermfg=white			guifg=#ffffff
 hi Statement 	ctermfg=cyan			guifg=#44ffff
 hi PreProc	ctermfg=darkcyan		guifg=#00aaaa
