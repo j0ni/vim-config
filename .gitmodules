@@ -120,4 +120,4 @@
 	url = git://github.com/mattn/gist-vim.git
 [submodule "bundle/vim-scala"]
 	path = bundle/vim-scala
-	url = git://github.com/bdd/vim-scala.git
+	url = git@github.com:j0ni/vim-scala.git
