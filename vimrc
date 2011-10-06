@@ -141,6 +141,8 @@ map <Leader>d :FufDir<CR>
 
 map <Leader>n :NERDTreeToggle<CR>
 
+map <Leader>p :Hammer<CR>
+
 set ofu=syntaxcomplete#Complete
 
 " Supertab settings

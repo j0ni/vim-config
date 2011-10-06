@@ -121,3 +121,6 @@
 [submodule "bundle/vim-scala"]
 	path = bundle/vim-scala
 	url = git@github.com:j0ni/vim-scala.git
+[submodule "bundle/hammer.vim"]
+	path = bundle/hammer.vim
+	url = https://github.com/robgleeson/hammer.vim.git
