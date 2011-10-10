@@ -34,7 +34,7 @@ set ttyfast
 set ruler
 set laststatus=0
 set relativenumber
-set clipboard=unnamed
+" set clipboard=unnamed
 set backspace=indent,eol,start
 set ignorecase
 set smartcase
