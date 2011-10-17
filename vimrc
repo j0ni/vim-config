@@ -10,7 +10,7 @@ set smartindent
 set sm
 set undolevels=0
 set sts=0
-set nowrap
+" set nowrap
 set expandtab
 set ts=2
 set sw=2
