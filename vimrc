@@ -51,7 +51,7 @@ endfunction
 
 function s:setupMarkup()
   call s:setupWrapping()
-  map <buffer> <Leader>p :Hammer<CR>
+  " map <buffer> <Leader>p :Hammer<CR>
 endfunction
 
 " Thorfile, Rakefile, Vagrantfile and Gemfile are Ruby
@@ -141,7 +141,7 @@ map <Leader>d :FufDir<CR>
 
 map <Leader>n :NERDTreeToggle<CR>
 
-map <Leader>p :Hammer<CR>
+" map <Leader>p :Hammer<CR>
 
 set ofu=syntaxcomplete#Complete
 
