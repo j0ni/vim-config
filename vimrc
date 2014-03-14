@@ -54,6 +54,9 @@ function s:setupMarkup()
   " map <buffer> <Leader>p :Hammer<CR>
 endfunction
 
+" Python indentation
+au BufRead,BufNewFile *.py set ts=4 sw=4
+
 " Thorfile, Rakefile, Vagrantfile and Gemfile are Ruby
 au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru} set ft=ruby
  
