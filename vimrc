@@ -33,7 +33,7 @@ set hidden
 set ttyfast
 set ruler
 set laststatus=0
-set relativenumber
+set number
 " set clipboard=unnamed
 set backspace=indent,eol,start
 set ignorecase
@@ -67,6 +67,12 @@ au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
 au BufNewFile,BufRead *.json set ft=javascript
 
 au BufRead,BufNewFile *.txt call s:setupWrapping()
+
+" Makefiles need 4 space tabs
+au BufRead,BufNewFile Makefile set ts=4
+
+" Kill trailing whitespace
+autocmd BufWritePre * :%s/\s\+$//e
 
 " Crockford says javascript should be indented 4 spaces
 " au BufRead,BufNewFile * if &ft == 'javascript' | set ts=4 sw=4 | endif
